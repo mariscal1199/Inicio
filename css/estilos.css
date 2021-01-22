@@ -1,0 +1,46 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+/*Styles*/
+@import url('header.css');
+@import url('info.css');
+@import url('form.css');
+
+
+/*Variables*/
+
+:root{
+    /*Fonts Google*/
+    --font-text:'Montserrat', sans-serif;
+    --font-jura:'Jura', sans-serif;
+    --font-rubik: 'Black Han Sans', sans-serif;
+    /*Colores*/
+    --color-red:#D4241D;
+    --color-green:rgb(33, 209, 57);
+    --color-yellow:rgb(44, 87, 228);
+    --color-oscuro:#0B1423;
+    --color-white:#fff;
+    --color-trasparent:#18263D;
+}
+
+/*Styles Importans*/
+
+body {
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+
+
+/*Fin*/

@@ -1,0 +1,149 @@
+/*Formulario*/
+
+form{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+input{
+    width: 340px;
+    display: block;
+    padding: 7px 60px 7px 20px;
+    border-radius: 5px;
+    margin: 20px 5px 5px 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: var(--font-text);
+}
+.admision{
+    background-color: #2E3844;
+}
+
+.sub-trans{
+    padding-top: 30px;
+}
+
+.admision h2{
+    padding: 10px;
+}
+
+.admision .dos{
+
+ padding-top: 20px;
+}
+
+.sub h2{
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+.form{
+display: flex;
+justify-content: center;
+}
+
+.row-1{
+    display: flex;
+    display: block;
+    margin-right:10px;
+}
+
+.row-2{
+    margin-left: 5px;
+}
+
+input[type="tel"]{
+    display: block;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button, .ver{
+    width: 710px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 51, 51);
+    border-radius: 5px;
+    color: var(--color-white);
+}
+
+button:hover{
+    background-color: var(--color-oscuro);
+    transition: 0.3s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 765px){
+    input{
+        display: block;
+        margin: 20px auto;
+        
+    }
+
+    .sub h2{
+        font-size: 35px;
+    }
+
+    .row-1{
+
+        margin-right:0px;
+    }
+    
+    .row-2{
+        margin-left: 0px;
+    }
+
+    form{
+
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .form{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+
+    #mensage{
+        display: none;
+    }
+
+    button, .ver{
+        width: auto;
+        margin:  0px 20px 0px 20px;
+        padding: 10px 150px 10px 150px;
+        margin: 0 auto;
+    }
+
+  
+}
+
+@media screen and (max-width: 370px){
+input{
+    width:290px ;
+}
+button, .ver{
+
+    padding: 10px 130px 10px 130px;
+}
+
+}

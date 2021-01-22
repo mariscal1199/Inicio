@@ -1,0 +1,112 @@
+.cursos{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.matri{
+    background-color: rgb(255, 42, 42);
+    border:  rgb(255, 42, 42);
+}
+
+.text{
+    user-select: none;
+}
+
+.text-1{
+    color: var(--color-oscuro);
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    user-select: none;
+}
+
+h5{
+    text-align: center;
+    color: var(--color-oscuro);
+    user-select: none;
+}
+
+.logos {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+    color: rgb(255, 45, 45);
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+
+h2{
+    user-select: none;
+}
+
+.sub-title{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.text-trasparent{
+    color: rgb(255, 59, 59);
+}
+
+.sub-title h2{
+    font-size: 50px;
+}
+
+.line-sub{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(255, 59, 59);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.text{
+    font-size: 14px;
+}
+
+.text-bold{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-oscuro);
+    font-family: var(--font-text);
+    font-size: 12px;
+    user-select: none;
+}
+
+@media screen and (max-width: 1201px){
+    .logos{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 986px){
+    .logos{
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .logos{
+        margin-left: 215px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .logos {
+        
+        margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    .logos {
+        
+        margin-left: 120px;
+    }
+}
+
+/*Fin*/
